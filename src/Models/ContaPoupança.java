@@ -1,2 +1,8 @@
-package Models;public class ContaPoupança {
+package Models;
+
+public class ContaPoupança extends Conta {
+
+    public ContaPoupança(Cliente cliente) {
+        super(cliente);
+    }
 }
